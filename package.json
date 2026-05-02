@@ -1,15 +1,17 @@
 {
   "name": "sicbo-hitclub-ai",
   "version": "1.0.0",
-  "description": "SICBO HITCLUB AI SERVER",
-  "main": "sichit_fixed.js",
   "type": "module",
+  "main": "sichit_fixed.js",
   "scripts": {
-    "start": "node sichit_fixed.js"
+    "start": "node --no-warnings sichit_fixed.js"
   },
   "dependencies": {
     "@fastify/cors": "^10.0.1",
-    "fastify": "^5.0.0",
+    "fastify": "^5.2.1",
     "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
